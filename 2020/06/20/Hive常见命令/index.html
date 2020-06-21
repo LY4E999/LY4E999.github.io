@@ -88,14 +88,14 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="hadoop dfsadmin -safemode leave    退出安全模式 show databases; 展示数据库 use cs176;  使用cs176数据库 创建一张内部表t_order，原始文件分隔符为’\t’create table t_order (id int,name string) row format delimited fields terminated by ‘\">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2020/06/20/hello-world/index.html">
+<meta property="og:title" content="Hive常见命令">
+<meta property="og:url" content="http://yoursite.com/2020/06/20/Hive%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="遇见你的小幸运！！！">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="article:published_time" content="2020-06-20T11:31:49.363Z">
-<meta property="article:modified_time" content="2020-06-20T11:31:49.363Z">
+<meta property="og:description" content="hadoop dfsadmin -safemode leave    退出安全模式 show databases; 展示数据库 use cs176;  使用cs176数据库 创建一张内部表t_order，原始文件分隔符为’\t’create table t_order (id int,name string) row format delimited fields terminated by ‘\">
+<meta property="article:published_time" content="2020-06-20T03:29:44.000Z">
+<meta property="article:modified_time" content="2020-06-20T03:45:58.284Z">
 <meta property="article:author" content="LY4E">
 <meta name="twitter:card" content="summary">
 
@@ -127,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2020/06/20/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2020/06/20/Hive常见命令/"/>
 
 
 
 
 
-  <title>Hello World | 遇见你的小幸运！！！</title>
+  <title>Hive常见命令 | 遇见你的小幸运！！！</title>
   
 
 
@@ -277,7 +277,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/blog/2020/06/20/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/blog/2020/06/20/Hive%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="LY4E">
@@ -294,7 +294,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">Hive常见命令</h1>
         
 
         <div class="post-meta">
@@ -306,7 +306,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-20T19:31:49+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-20T11:29:44+08:00">
                 2020-06-20
               </time>
             
@@ -316,6 +316,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/Hive/" itemprop="url" rel="index">
+                    <span itemprop="name">Hive</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -338,7 +360,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  73
+                  340
                 </span>
               
 
@@ -386,19 +408,20 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>hadoop dfsadmin -safemode leave    退出安全模式</p>
+<p>show databases; 展示数据库</p>
+<p>use cs176;  使用cs176数据库</p>
+<p>创建一张内部表t_order，原始文件分隔符为’\t’<br>create table t_order (id int,name string) row format delimited fields terminated by ‘\t’;</p>
+<p>desc t_order; 展示数据表中字段</p>
+<p>load data local inpath ‘/home/order.log’ into table t_order;  传入数据到表t_order</p>
+<p>创建一个外部表order_log 表目录在/test下<br>create external table order_log(a int,b string, c int,d int,e int,f int,g int,h double,i int,j string,k string) row format delimited fields terminated by ‘\t’  location ‘/test’;（外部表传入数据直接把文件传到/test目录下即可）</p>
+<p>创建内部分区表<br>create table member_address(a int,b int,c string,d string,f string,g string,h string,i string,j string)partitioned by (address string)row format delimited fields terminated by ‘\t’;</p>
+<p>传入数据<br>load data local inpath ‘/home/member_address_hlj’ overwrite into table member_adress partition(address=”heilongjiang”);   （overwrite 覆盖   partition(address=”heilongjiang”) 分区）</p>
+<p>创建一个外部分区表<br>create external table ext_member_address(a int,b int,c string,d string,f string,g string,h string,i string,j string)partitioned by (address string)row format delimited fields terminated by ‘\t’ location ‘/test’;</p>
+<p>添加一个分区<br>alter table ext_member_address add partition(address=”heilongjiang”)location ‘/member_address/heilongjiang’;</p>
+<p>打开桶表<br>set hive.enforce.bucketing=true;</p>
+<p>创建桶表<br>create table if not exists bk_order_log(a int,b string, c int,d int,e int,f int,g int,h double,i int,j string,k string)clustered by (a) into 4 buckets row format delimited fields terminated by ‘\t’;</p>
+<p>加载数据<br> insert into table bk_order_log select *from order_log;</p>
 
       
     </div>
@@ -419,6 +442,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2020/06/20/Hive/" rel="next" title="Hive">
+                <i class="fa fa-chevron-left"></i> Hive
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
@@ -467,17 +506,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -492,12 +522,21 @@
               
                 <a href="/blog/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
             
 
             
@@ -543,22 +582,6 @@
       </section>
 
       
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
 
       
 
@@ -603,7 +626,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共73字</span>
+  <span class="post-count">博客全站共3.1k字</span>
 </div>
         
 
