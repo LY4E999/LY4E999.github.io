@@ -3,11 +3,11 @@
   <title>遇见你的小幸运！！！</title>
   
   <subtitle>匆匆过客</subtitle>
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/LY4E999.github.io/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://ly4e999.github.io/"/>
   <updated>2020-06-20T03:45:58.284Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://ly4e999.github.io/</id>
   
   <author>
     <name>LY4E</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hive常见命令</title>
-    <link href="http://yoursite.com/2020/06/20/Hive%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/"/>
-    <id>http://yoursite.com/2020/06/20/Hive%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/</id>
+    <link href="https://ly4e999.github.io/2020/06/20/Hive%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/"/>
+    <id>https://ly4e999.github.io/2020/06/20/Hive%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/</id>
     <published>2020-06-20T03:29:44.000Z</published>
     <updated>2020-06-20T03:45:58.284Z</updated>
     
@@ -38,15 +38,15 @@
     </summary>
     
     
-      <category term="Hive" scheme="http://yoursite.com/categories/Hive/"/>
+      <category term="Hive" scheme="https://ly4e999.github.io/categories/Hive/"/>
     
     
   </entry>
   
   <entry>
     <title>Hive</title>
-    <link href="http://yoursite.com/2020/06/20/Hive/"/>
-    <id>http://yoursite.com/2020/06/20/Hive/</id>
+    <link href="https://ly4e999.github.io/2020/06/20/Hive/"/>
+    <id>https://ly4e999.github.io/2020/06/20/Hive/</id>
     <published>2020-06-20T01:20:18.000Z</published>
     <updated>2020-06-20T03:45:47.648Z</updated>
     
@@ -65,7 +65,7 @@
     </summary>
     
     
-      <category term="Hive" scheme="http://yoursite.com/categories/Hive/"/>
+      <category term="Hive" scheme="https://ly4e999.github.io/categories/Hive/"/>
     
     
   </entry>
