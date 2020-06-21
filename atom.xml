@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>遇见你的小幸运！！！</title>
   
-  
-  <link href="/atom.xml" rel="self"/>
+  <subtitle>匆匆过客</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
   <updated>2020-06-20T11:31:49.363Z</updated>
